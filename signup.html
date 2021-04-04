@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="" id="navbar__logo"> <i class="fa fa-birthday-cake"></i>
+                <b><span style="padding-left: 20px;"> DOLCE BLEND</span></b></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/index.html#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/index.html#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/index.html#gallery" class="navbar__links" id="gallery-page">Gallery</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/contact.html" class="navbar__links" id="contact-page">Contact Us</a>
+                </li>
+
+                <li class="navbar__btn">
+                    <a href="/signup.html" class="button" id="signup">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="signup">
+        
+        <h1>Create Account</h1><br><br>
+        <p><b>Sign Up to order! </b></p><br><br>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <input type="text" id="signup__uname" name="uname" placeholder="Username">
+                <i class="fas fa-check-circle"></i>
+			    <i class="fas fa-exclamation-circle"></i><br>
+                <small>Error message</small><br><br>
+            </div>
+            <div class="form-control">
+                <input type="text" id="signup__email" name="email" placeholder="Email">
+                <i class="fas fa-check-circle"></i>
+			    <i class="fas fa-exclamation-circle"></i><br>
+                <small>Error message</small><br><br>
+            </div>
+            <div class="form-control">
+                <input type="password" id="signup__pass" name="pass" placeholder="Password">
+                <i class="fas fa-check-circle"></i>
+			    <i class="fas fa-exclamation-circle"></i><br>
+                <small>Error message</small><br><br>
+            </div>
+            <div class="form-control">
+                <input type="password" id="signup__cpass" name="cpass" placeholder="Confirm Password">    
+                <i class="fas fa-check-circle"></i>
+			    <i class="fas fa-exclamation-circle"></i><br>
+                <small>Error message</small><br><br><br>
+            </div>
+            
+            <button id="signup__btn"><a href="/signup.html" class="order"><h2>Submit</h2></a></button><br><br>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footer__container">
+            <div class="footer_1"><b>CONTACT </b><br> arushisehgal15@gmail.com <br> +91 7838335976 <br> <a href="https://www.instagram.com/dolce_blend_cake_boutique/" class="insta" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></div>
+            <div class="footer_2"><b> ADDRESS</b> <br> Cleo County <br>Sector 121 <br> Noida, UP <br> 201309 </div><br><br>
+        </div>
+        <div class="footer__copyright">
+            <p>Copyright &copy; 2021 DolceBlend. All Rights Reserved.</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
